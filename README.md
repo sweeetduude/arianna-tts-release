@@ -13,20 +13,20 @@ Before you start using ARIANNA TTS, make sure you have the following installed:
 
 ### Download
 
-The latest version of ARIANNA TTS can be found under the releases section of this repository. Download the `.zip` file and unpack it to any location.
+The latest version of ARIANNA TTS can be found [here](https://github.com/sweeetduude/arianna-tts-release/releases). Download the `.zip` file and unpack it to any location.
 
 ## Configuration
 
 Upon first launch, you will be prompted to enter your TTS token. Follow these steps to complete the setup:
 
 1. Start ARIANNA TTS.
-2. A prompt will appear asking for a TTS token. If you don't have one, click on the link to be redirected to [arianna.gg/tts](https://arianna.gg/tts) where you can obtain it.
+2. A prompt will appear asking for a TTS token. If you don't have one, click on the link to be redirected to [arianna.gg/tts](https://arianna.gg/tts) where you can obtain it. Currently only available for Tier 3 subscribers.
 3. Enter your token in the provided field and click "Save Token".
 4. The application is now ready for use.
 
 ## Custom Text and Sound Formatting
 
-To embed custom sounds within the TTS, use the following format: `###sound_name###`. Replace `sound_name` with the name of the sound.
+To embed custom sounds within the TTS, use the following format: `###sound_name###`. Replace `sound_name` with the name of the sound. A full list of available sounds can be found within the tool.
 
 Copy and paste this text as an example
 
