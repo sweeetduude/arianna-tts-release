@@ -27,24 +27,24 @@ Upon first launch, you will be prompted to enter your TTS token. Follow these st
 
 ## Custom TTS with embedded sounds and Brian TTS
 
-To embed custom sounds within the TTS, use the following format: `###sound_name###`. Replace `sound_name` with the name of the sound. A full list of available sounds can be found within the tool.
+To embed custom sounds within the TTS, use the following format: `###sound_name###` or `{sound_name}`. Replace `sound_name` with the name of the sound. A full list of available sounds can be found within the tool.
 
 Copy and paste this text as an example:
 
 ```
-Hi there I'm Arianna ###burp### Nice to meet you!
+Hi there I'm Arianna {burp} Nice to meet you!
 ```
 
-To embed Brian TTS, use the following format: `###Brian TTS text###`. Replace `Brian TTS text` with the text you want to generate. If the text is exactly the same as a sound_name then the sound will be played instead. Add a space infront of the sound name `### sound_name###` and the text will be generated as Brian TTS.
+To embed Brian TTS, use the following format: `###Brian TTS text###` or `{Brian TTS text}`. Replace `Brian TTS text` with the text you want to generate. If the text is exactly the same as a sound_name then the sound will be played instead. Add a space infront of the sound name `### sound_name###` and the text will be generated as Brian TTS.
 
 Copy and paste this as an example:
 
 ```
-###Knock knock###
+{Knock knock}
 Who’s there?
-###Luke.###
+{Luke.}
 Luke who?
-###Luke through the peep hole and find out.###
+{Luke through the peep hole and find out.}
 ```
 
 
